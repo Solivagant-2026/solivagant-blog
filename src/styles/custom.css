@@ -1,0 +1,42 @@
+/* Solivagant 科幻风微调 */
+
+.card-base,
+.card {
+  border: 1px solid rgba(74, 158, 255, 0.28) !important;
+  box-shadow: 0 0 18px rgba(74, 158, 255, 0.10) !important;
+  backdrop-filter: blur(12px);
+}
+
+h1,
+h2,
+h3,
+.site-title,
+.post-title {
+  background: linear-gradient(135deg, #4a9eff, #9d4edd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+  text-shadow: 0 0 8px rgba(74, 158, 255, 0.8);
+}
+
+body {
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+}
+h1,
+h2,
+h3,
+.site-title,
+.post-title {
+  font-family: 'Orbitron', 'Noto Sans SC', sans-serif;
+}
+/* 调整右侧最新动态卡片的搜索框，防止遮挡背景图 */
+.card-base .search-box {
+  margin-top: 10px; /* 向下移动一点 */
+  background-color: rgba(30, 30, 30, 0.7); /* 增加半透明深色背景 */
+  backdrop-filter: blur(5px); /* 增加毛玻璃模糊效果 */
+  border-radius: 8px; /* 增加圆角 */
+  padding: 4px;
+}

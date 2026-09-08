@@ -1,0 +1,6 @@
+packages:
+  - '.'
+allowBuilds:
+  '@tsparticles/engine': false
+  esbuild: true
+  workerd: true
